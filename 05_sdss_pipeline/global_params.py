@@ -40,6 +40,6 @@ sdss_nmocks = 1000
 
 # Surrogate sims
 surr_bg = 2.38   # galaxy bias
-surr_bv = 0.3    # ad hoc multiplier on halo model P_ge, to make surrogates agree with data
-surr_fnl = 250   # we run surrogate sims with fnl = [-surr_fnl, 0, surr_fnl]
+surr_bv = 0.22   # ad hoc multiplier on halo model P_ge, to make surrogates agree with data
+surr_fnl = 250   # only used for plotting
 num_surrogates = 1000
